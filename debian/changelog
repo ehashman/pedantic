@@ -1,3 +1,9 @@
+pedantic-clojure (0.2.0-2) unstable; urgency=medium
+
+  * Fix VCS URLs and maintainer.
+
+ -- Elana Hashman <debian@hashman.ca>  Tue, 25 Apr 2017 00:34:01 -0400
+
 pedantic-clojure (0.2.0-1) unstable; urgency=medium
 
   * Initial release. (Closes: #754504)
