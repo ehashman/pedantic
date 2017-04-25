@@ -1,0 +1,25 @@
+Source: pedantic-clojure
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Elana Hashman <debian@hashman.ca>,
+Build-Depends:
+ debhelper (>= 10),
+ javahelper (>= 0.32),
+ maven-repo-helper (>= 1.7),
+ libtext-markdown-perl | markdown,
+ default-jdk,
+ clojure (>= 1.5),
+ libpomegranate-clojure (>= 0.2.0)
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/pedantic-clojure.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/pedantic-clojure.git;a=summary
+Homepage: https://github.com/xeqi/pedantic
+
+Package: libpedantic-clojure
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}
+Recommends: ${java:Recommends}
+Description: Checkout dependency graphs for common unexpected cases
+ pedantic is a Clojure library designed to be used with pomegrante to check for
+ common unexpected dependency problems.

@@ -1,0 +1,5 @@
+pedantic-clojure (0.2.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #754504)
+
+ -- Elana Hashman <debian@hashman.ca>  Sat, 15 Apr 2017 17:06:00 -0400
